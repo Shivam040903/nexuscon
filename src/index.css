@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  color: #0B1220;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4, .font-display {
+  font-family: "Outfit", sans-serif;
+}
+
+::selection {
+  background: #A7F3D0;
+}
+
+/* Track color chips - encode track identity consistently across the app */
+.track-ai { background: #ECFDF5; color: #0C7232; }
+.track-cloud { background: #EFF6FF; color: #1D4ED8; }
+.track-product { background: #FAF5FF; color: #7E22CE; }
+.track-design { background: #FDF2F8; color: #BE185D; }
+.track-security { background: #FFFBEB; color: #B45309; }
+.track-startup { background: #FFF7ED; color: #C2410C; }
+
+.scrollbar-hide::-webkit-scrollbar { display: none; }
+.scrollbar-hide { -ms-overflow-style: none; scrollbar-width: none; }
+
+@keyframes marquee {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+.animate-marquee {
+  animation: marquee 28s linear infinite;
+}
