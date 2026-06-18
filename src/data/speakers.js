@@ -1,4 +1,4 @@
-// Mock speaker data for NexusCon 2026
+// Dummy speaker data 
 
 export const tracks = [
   { id: "ai", label: "AI & Machine Learning", className: "track-ai" },

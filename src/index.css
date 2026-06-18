@@ -20,7 +20,6 @@ h1, h2, h3, h4, .font-display {
   background: #A7F3D0;
 }
 
-/* Track color chips - encode track identity consistently across the app */
 .track-ai { background: #ECFDF5; color: #0C7232; }
 .track-cloud { background: #EFF6FF; color: #1D4ED8; }
 .track-product { background: #FAF5FF; color: #7E22CE; }

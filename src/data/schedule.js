@@ -1,4 +1,4 @@
-// Mock schedule data for NexusCon 2026 — three convention days
+// Dummy schedule data 
 
 export const days = [
   { id: 1, date: "Wed, Aug 12, 2026", label: "Day 1", theme: "Foundations & Vision" },

@@ -1,4 +1,4 @@
-// Mock venue, ticket and FAQ data for NexusCon 2026
+// Dummy venue, ticket and FAQ data 
 
 export const venue = {
   name: "Jaipur Exhibition & Convention Centre (JECC)",

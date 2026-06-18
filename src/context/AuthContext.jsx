@@ -13,7 +13,7 @@ export function AuthProvider({ children }) {
       const raw = localStorage.getItem(STORAGE_KEY);
       if (raw) setExhibitor(JSON.parse(raw));
     } catch {
-      // ignore corrupt/blocked storage
+
     }
   }, []);
 
@@ -22,14 +22,13 @@ export function AuthProvider({ children }) {
     const session = {
       email,
       displayName: name.charAt(0).toUpperCase() + name.slice(1),
-      // Deterministic mock booth number derived from the email so it feels consistent on re-login
       booth: "B" + String((email.length * 7) % 20 + 1).padStart(2, "0"),
     };
     setExhibitor(session);
     try {
       localStorage.setItem(STORAGE_KEY, JSON.stringify(session));
     } catch {
-      // ignore
+      
     }
     return session;
   }
@@ -39,7 +38,7 @@ export function AuthProvider({ children }) {
     try {
       localStorage.removeItem(STORAGE_KEY);
     } catch {
-      // ignore
+      
     }
   }
 

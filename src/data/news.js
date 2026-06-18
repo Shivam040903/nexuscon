@@ -1,4 +1,4 @@
-// Mock news & updates data for NexusCon 2026
+// Dummy news & updates data 
 
 export const news = [
   {

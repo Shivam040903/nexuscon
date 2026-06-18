@@ -1,4 +1,4 @@
-// Mock sponsor & exhibitor data for NexusCon 2026
+// Dummy sponsor & exhibitor data 
 
 export const titleSponsor = {
   name: "Veridian Labs",
