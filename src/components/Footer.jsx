@@ -75,7 +75,7 @@ export default function Footer() {
               </li>
               <li className="flex items-center gap-2">
                 <Mail className="w-4 h-4 shrink-0" />
-                <span>hello@nexuscon.example</span>
+                <span>hello@nexuscon.com</span>
               </li>
               <li className="flex items-center gap-2">
                 <CalendarDays className="w-4 h-4 shrink-0" />

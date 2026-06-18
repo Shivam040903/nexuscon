@@ -83,7 +83,7 @@ export default function LoginModal() {
         </form>
 
         <p className="text-xs text-ink-400 mt-5 text-center leading-relaxed">
-          New exhibitor? <span className="text-brand-600 font-medium">sponsors@nexuscon.example</span>
+          New exhibitor? <span className="text-brand-600 font-medium">sponsors@nexuscon.com</span>
         </p>
       </div>
     </div>
